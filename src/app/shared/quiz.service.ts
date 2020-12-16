@@ -10,7 +10,7 @@ export class QuizService {
   qnProgress: number;
   correctAnswerCount: number = 0;
 
-  constructor(private http: HttpClient) {}
+  constructor(public http: HttpClient) {}
   displayTimeElapsed() {
     return (
       Math.floor(this.seconds / 3600) +
