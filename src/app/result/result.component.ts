@@ -8,7 +8,7 @@ import { Router } from "@angular/router";
   styleUrls: ["./result.component.css"],
 })
 export class ResultComponent implements OnInit {
-  constructor(private quizService: QuizService, private router: Router) {}
+  constructor(public quizService: QuizService, private router: Router) {}
 
   ngOnInit() {
     if (parseInt(localStorage.getItem("qnProgress")) == 10) {
