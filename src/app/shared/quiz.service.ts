@@ -3,7 +3,8 @@ import { HttpClient } from "@angular/common/http";
 
 @Injectable()
 export class QuizService {
-  readonly rootUrl = "http://backend-quizz.herokuapp.com";
+  readonly rootUrl = "https://backend-quizz.herokuapp.com";
+  // https://backend-quizz.herokuapp.com
   qns: any[];
   seconds: number;
   timer;

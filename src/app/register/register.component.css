@@ -1,0 +1,12 @@
+.card {
+  width: 75%;
+}
+.col-sm-6 {
+  width: 74%;
+  margin-left: 18%;
+  margin-top: 40px;
+  min-width: 400px;
+}
+img {
+  width: 50%;
+}
